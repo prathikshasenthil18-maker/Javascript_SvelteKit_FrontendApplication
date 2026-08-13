@@ -1,0 +1,7 @@
+# Git-Spark — linked to SvelteKit (Version_14)
+
+Customer Version 14 (ES2020 / Node.js 14)
+
+```bash
+npm run tool:Git-Spark
+```

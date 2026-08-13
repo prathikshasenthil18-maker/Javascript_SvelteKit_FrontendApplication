@@ -1,0 +1,15 @@
+node_modules/
+.svelte-kit/
+build/
+dist/
+coverage/
+.nyc_output/
+reports/*
+!reports/.gitkeep
+*.log
+.DS_Store
+.vite/
+_generate_sveltekit.py
+_populate_all.ps1
+_populate_results.json
+__pycache__/
