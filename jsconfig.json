@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "module": "esnext",
+    "target": "es2023",
+    "paths": {
+      "$lib": ["./src/lib"],
+      "$lib/*": ["./src/lib/*"]
+    }
+  },
+  "include": ["src/**/*.js", "src/**/*.svelte"]
+}
