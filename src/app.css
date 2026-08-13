@@ -1,0 +1,25 @@
+:root {
+  --bg: #0f172a;
+  --card: #1e293b;
+  --text: #e2e8f0;
+  --accent: #38bdf8;
+}
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background: radial-gradient(circle at top left, #1d4ed8, var(--bg) 55%);
+  color: var(--text);
+  min-height: 100vh;
+}
+main {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+.card {
+  background: rgba(30, 41, 59, 0.92);
+  border: 1px solid #334155;
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  margin-top: 1rem;
+}

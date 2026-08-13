@@ -1,0 +1,7 @@
+# cccc — linked to SvelteKit (Version_24)
+
+Customer Version 24 (ES2024+ / Node.js 24)
+
+```bash
+npm run tool:cccc
+```
