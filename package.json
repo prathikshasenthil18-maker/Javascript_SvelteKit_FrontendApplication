@@ -1,0 +1,45 @@
+{
+  "name": "javascript-sveltekit-frontend-application-node22",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scenario 1 Monolithic SvelteKit Frontend Application \u2014 Customer Version 22 (ES2024 / Node.js 22). Alt tools: debtmap, cccc, Dolos, oxlint, OpenGrep, trivy, monocart-coverage-reports, gutcheck, CodeQL, knip, Opengrep, Git-Spark.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vite dev",
+    "prebuild": "node scripts/version-check.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && node --check src/lib/domain/catalog.js",
+    "test": "node --test test/catalog.test.js",
+    "oxlint": "oxlint src scripts test || oxlint . || true",
+    "knip": "knip --no-progress || true",
+    "gutcheck": "node tools/gutcheck/run-node.js",
+    "monocart": "node tools/monocart-coverage-reports/run-node.js",
+    "tools:list": "node -e \"console.log(require('./tool-matrix.json').tools.join('\\n'))\"",
+    "tool:debtmap": "bash tools/debtmap/run.sh",
+    "tool:cccc": "bash tools/cccc/run.sh",
+    "tool:Dolos": "bash tools/Dolos/run.sh",
+    "tool:oxlint": "bash tools/oxlint/run.sh",
+    "tool:OpenGrep": "bash tools/OpenGrep/run.sh",
+    "tool:trivy": "bash tools/trivy/run.sh",
+    "tool:monocart-coverage-reports": "bash tools/monocart-coverage-reports/run.sh",
+    "tool:gutcheck": "bash tools/gutcheck/run.sh",
+    "tool:CodeQL": "bash tools/CodeQL/run.sh",
+    "tool:knip": "bash tools/knip/run.sh",
+    "tool:Opengrep": "bash tools/Opengrep_excel/run.sh",
+    "tool:Git-Spark": "bash tools/Git-Spark/run.sh"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.8",
+    "@sveltejs/kit": "^2.15.0",
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "svelte": "^4.2.19",
+    "vite": "^5.4.11",
+    "oxlint": "^0.15.0",
+    "knip": "^5.41.0",
+    "monocart-coverage-reports": "^2.12.0"
+  }
+}

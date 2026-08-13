@@ -1,0 +1,16 @@
+{
+  "tool": "knip",
+  "folder": "tools/knip",
+  "branch": "Version_22",
+  "customer_version": 22,
+  "syntax_label": "ES2024 / Node.js 22",
+  "npm_script": "knip",
+  "project_targets": [
+    "src/**/*.{js,svelte}",
+    "test/**/*.js",
+    "tool-fixtures/**/*.js"
+  ],
+  "linked_project": "Javascript SvelteKit Frontend Application",
+  "run_from": "repository root",
+  "excel_source": "Alternative_Tools_Enterprise_Mapping_Matrix.xlsx / JavaScript / SvelteKit"
+}
