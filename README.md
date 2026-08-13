@@ -1,0 +1,15 @@
+# Javascript SvelteKit Frontend Application
+
+**Scenario:** 1 - Monolithic  
+**Branch:** `Version_26`  
+**Customer Version:** 26 (ES2026 target / Node.js 26)  
+**Excel:** Alternative_Tools_Enterprise_Mapping_Matrix.xlsx  
+
+```bash
+npm install
+npm run build
+npm test
+npm run tool:oxlint
+```
+
+Alt tools under `tools/` (12): debtmap, cccc, Dolos, oxlint, OpenGrep, trivy, monocart-coverage-reports, gutcheck, CodeQL, knip, Opengrep, Git-Spark
