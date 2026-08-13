@@ -1,0 +1,16 @@
+{
+  "tool": "cccc",
+  "folder": "tools/cccc",
+  "branch": "Version_16",
+  "customer_version": 16,
+  "syntax_label": "ES2021 / Node.js 16",
+  "npm_script": "tool:cccc",
+  "project_targets": [
+    "src/**/*.{js,svelte}",
+    "test/**/*.js",
+    "tool-fixtures/**/*.js"
+  ],
+  "linked_project": "Javascript SvelteKit Frontend Application",
+  "run_from": "repository root",
+  "excel_source": "Alternative_Tools_Enterprise_Mapping_Matrix.xlsx / JavaScript / SvelteKit"
+}

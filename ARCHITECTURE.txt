@@ -1,0 +1,6 @@
+Scenario 1 Monolithic — SvelteKit Frontend Application
+Branch: Version_16
+Customer Version: 16 (ES2021 / Node.js 16)
+
+USER -> SvelteKit UI (src/routes) -> $lib/domain/catalog.js
+tools/ -> linked alt-tool runners against real project sources
